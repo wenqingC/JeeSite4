@@ -6,6 +6,9 @@ pipeline {
     environment {
         docker_image_name = 'jeesite4'
         docker_container_name = 'iJeesite4'
+        mysql_port = '3307'
+        mysql_user = 'root'
+        mysql_pwd = 'cwq_2168'
     }
 
     parameters {
